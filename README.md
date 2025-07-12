@@ -1,29 +1,30 @@
-# Palindrom.ai Website Prototype
+# Palindrom.ai SEO Website Prototype
 
-This is an exact copy of the Palindrom.ai website source code, created for prototyping and testing purposes.
+This is an SEO-optimized website prototype for Palindrom.ai, created for testing and implementing high-converting landing pages.
 
 ## Purpose
-- **Prototype development** for website improvements
+- **SEO optimization testing** for high-intent keyword strategies
+- **Conversion rate optimization** with interactive calculators and tools
 - **Content testing** before implementing on live site
-- **SEO optimization testing** for keyword strategies
-- **Design iteration** without affecting production
+- **Landing page prototyping** for targeted campaigns
 
 ## Structure
 ```
 palindrom-website/
-├── index.html          # Exact copy of Palindrom.ai homepage
-└── README.md           # This file
+├── index.html                    # Exact copy of Palindrom.ai homepage
+├── chatgpt-vs-copilot.html      # AI assistant comparison landing page
+├── chatgpt-vs-claude.html       # (Coming soon) Claude vs ChatGPT comparison
+└── README.md                     # This file
 ```
 
-## Features Copied
+## Features
 - Complete HTML structure from live site
-- All Webflow CSS and JavaScript references
-- Navigation menus and dropdowns
-- Hero section with video
-- Company logos and testimonials
-- Service sections and features
-- Contact forms and CTAs
-- Footer with all links
+- SEO-optimized landing pages targeting high-intent keywords
+- Interactive cost calculators with ROI analysis
+- Expert consultant insights and recommendations
+- Comprehensive feature comparison tables
+- Implementation roadmaps and conversion points
+- Calendly integration for lead generation
 
 ## External Dependencies
 The website uses external Webflow assets:
@@ -32,21 +33,23 @@ The website uses external Webflow assets:
 - Fonts: Google Fonts (Lato, Open Sans)
 - Images: All images hosted on Webflow CDN
 
-## Usage
-1. Open `index.html` in any web browser
-2. All styling and functionality should work as external assets are linked
-3. Use for testing content changes, SEO improvements, or new features
-4. Copy approved changes to live Webflow site
+## SEO Landing Pages
 
-## Notes
-- This is a static copy for prototyping only
-- External links and forms will still point to live site
-- No backend functionality included
-- Perfect for showcasing design changes and content updates
+### ChatGPT vs GitHub Copilot (`chatgpt-vs-copilot.html`)
+- Targets high-intent comparison keywords
+- Interactive cost calculator showing ROI
+- Expert recommendations and implementation roadmap
+- Multiple conversion points throughout the page
+- Professional consultant positioning
+
+## Usage
+1. Open any `.html` file in a web browser
+2. All styling and functionality works via external assets
+3. Use for testing SEO content and conversion optimization
+4. Implement successful elements on live Webflow site
 
 ## Next Steps
-Use this prototype to:
-- Test keyword-optimized content
-- Prototype new landing pages
-- Test conversion optimization changes
-- Document implementation requirements for Webflow team
+- Create additional comparison pages (Claude vs ChatGPT, etc.)
+- A/B test different calculator configurations
+- Monitor conversion rates and optimize CTAs
+- Document successful elements for Webflow implementation
