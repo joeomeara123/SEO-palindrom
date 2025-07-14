@@ -1,0 +1,23 @@
+{
+  "name": "palindrom-seo-prototype",
+  "version": "1.0.0",
+  "description": "SEO-optimized website prototype for Palindrom.ai with AI tool comparison landing pages",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build required'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "AI",
+    "consulting",
+    "ChatGPT",
+    "Claude",
+    "Copilot",
+    "comparison",
+    "SEO",
+    "landing-page"
+  ],
+  "author": "Palindrom.ai",
+  "license": "ISC"
+}
