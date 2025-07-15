@@ -7,6 +7,10 @@
     {
       "source": "/chatgpt-vs-copilot", 
       "destination": "/chatgpt-vs-copilot.html"
+    },
+    {
+      "source": "/navigation",
+      "destination": "/navigation.html"
     }
   ]
 }

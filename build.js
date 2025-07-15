@@ -7,7 +7,7 @@ if (!fs.existsSync('public')) {
 }
 
 // Copy HTML files to public directory
-const files = ['index.html', 'chatgpt-vs-claude.html', 'chatgpt-vs-copilot.html'];
+const files = ['index.html', 'chatgpt-vs-claude.html', 'chatgpt-vs-copilot.html', 'navigation.html'];
 
 // Create navigation file if it doesn't exist
 const navigationExists = fs.existsSync(path.join('public', 'navigation.html'));
