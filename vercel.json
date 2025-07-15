@@ -1,24 +1,13 @@
 {
-  "version": 2,
-  "name": "palindrom-seo-prototype",
-  "builds": [
+  "cleanUrls": true,
+  "rewrites": [
     {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
+      "source": "/chatgpt-vs-claude",
+      "destination": "/chatgpt-vs-claude.html"
     },
     {
-      "src": "/chatgpt-vs-claude",
-      "dest": "/chatgpt-vs-claude.html"
-    },
-    {
-      "src": "/chatgpt-vs-copilot",
-      "dest": "/chatgpt-vs-copilot.html"
+      "source": "/chatgpt-vs-copilot",
+      "destination": "/chatgpt-vs-copilot.html"
     }
   ],
   "headers": [

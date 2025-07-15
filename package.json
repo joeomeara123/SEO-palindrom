@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'Static site - no build required'",
+    "build": "node build.js",
     "start": "vercel dev"
   },
   "keywords": [
